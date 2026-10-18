@@ -1,0 +1,4 @@
+cluster,size,LeadTime,TotalNights,TotalGuests,ADR,cancel_rate_posthoc
+0,1229,12.88,1.775,1.287,71.56,0.123
+1,15131,133.557,3.988,2.547,137.856,0.395
+2,26073,49.093,2.746,1.75,98.547,0.256

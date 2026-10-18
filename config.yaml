@@ -1,0 +1,28 @@
+# Single source of truth for paths, seed and split sizes.
+seed: 42
+
+paths:
+  raw: data/H2.csv
+  clean: data/H2_clean.csv
+  train: data/train.csv
+  test: data/test.csv
+  eda_dir: outputs/eda
+  fig_dir: outputs/figures
+  table_dir: outputs/tables
+
+expected_shape: [79330, 31]      # H2.csv (City Hotel) must be 79,330 rows x 31 columns
+
+cleaning:
+  adr_max: 1000                  # ADR >= 1000 is treated as an outlier (the single ~5400 row)
+
+split:
+  test_size: 0.2                 # 80% TRAIN / 20% TEST
+  stratify_on: IsCanceled
+
+cv:
+  n_splits: 5
+
+clustering:
+  k_range: [2, 8]
+  baseline_k: 3
+  silhouette_sample: 10000

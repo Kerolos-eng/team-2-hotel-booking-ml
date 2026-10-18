@@ -1,0 +1,32 @@
+column,dtype,missing_count,missing_pct,distinct_count,null_token_count,min,median,mean,max,top_value,top_frequency
+IsCanceled,int64,0,0.0,2,0,0.0,0.0,0.41726963317786464,1.0,,
+LeadTime,int64,0,0.0,453,0,0.0,74.0,109.73572419009201,629.0,,
+ArrivalDateYear,int64,0,0.0,3,0,2015.0,2016.0,2016.1742846338082,2017.0,,
+ArrivalDateMonth,str,0,0.0,12,0,,,,,August,8983.0
+ArrivalDateWeekNumber,int64,0,0.0,53,0,1.0,27.0,27.177448632295473,53.0,,
+ArrivalDateDayOfMonth,int64,0,0.0,31,0,1.0,16.0,15.786625488465901,31.0,,
+StaysInWeekendNights,int64,0,0.0,14,0,0.0,1.0,0.7951846716248582,16.0,,
+StaysInWeekNights,int64,0,0.0,29,0,0.0,2.0,2.1829572671120636,41.0,,
+Adults,int64,0,0.0,5,0,0.0,2.0,1.8509769318038574,4.0,,
+Children,float64,4,0.005042228665069961,4,0,0.0,0.0,0.09136979048483473,3.0,,
+Babies,int64,0,0.0,5,0,0.0,0.0,0.0049413840917685616,10.0,,
+Meal,str,0,0.0,4,0,,,,,BB,62305.0
+Country,str,24,0.030253371990419768,166,0,,,,,PRT,30960.0
+MarketSegment,str,0,0.0,8,0,,,,,Online TA,38748.0
+DistributionChannel,str,0,0.0,5,0,,,,,TA/TO,68945.0
+IsRepeatedGuest,int64,0,0.0,2,0,0.0,0.0,0.025614521618555403,1.0,,
+PreviousCancellations,int64,0,0.0,10,0,0.0,0.0,0.07974284633808143,21.0,,
+PreviousBookingsNotCanceled,int64,0,0.0,73,0,0.0,0.0,0.13237110802974916,72.0,,
+ReservedRoomType,str,0,0.0,8,0,,,,,A,62595.0
+AssignedRoomType,str,0,0.0,9,0,,,,,A,57007.0
+BookingChanges,int64,0,0.0,21,0,0.0,0.0,0.18736921719399974,21.0,,
+DepositType,str,0,0.0,3,0,,,,,No Deposit,66442.0
+Agent,str,0,0.0,224,8131,,,,,9,31955.0
+Company,str,0,0.0,208,75641,,,,,NULL,75641.0
+DaysInWaitingList,int64,0,0.0,115,0,0.0,0.0,3.2267742342115215,391.0,,
+CustomerType,str,0,0.0,4,0,,,,,Transient,59404.0
+ADR,float64,0,0.0,5405,0,0.0,99.9,105.30446539770578,5400.0,,
+RequiredCarParkingSpaces,int64,0,0.0,4,0,0.0,0.0,0.024366570023950585,3.0,,
+TotalOfSpecialRequests,int64,0,0.0,6,0,0.0,0.0,0.546917937728476,5.0,,
+ReservationStatus,str,0,0.0,3,0,,,,,Check-Out,46228.0
+ReservationStatusDate,str,0,0.0,864,0,,,,,2015-10-21,1416.0

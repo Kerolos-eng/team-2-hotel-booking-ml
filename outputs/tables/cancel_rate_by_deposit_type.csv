@@ -1,0 +1,4 @@
+DepositType,mean,size
+No Deposit,0.291,52183
+Non Refund,0.972,844
+Refundable,0.667,15

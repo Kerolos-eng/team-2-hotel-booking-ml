@@ -1,0 +1,17 @@
+check,value
+rows,79330.0
+columns,31.0
+exact_duplicate_rows,25902.0
+missing_Children (NaN),4.0
+missing_Country (NaN),24.0
+Agent == 'NULL' (no agent),8131.0
+Company == 'NULL' (no company),75641.0
+ADR == 0,1208.0
+ADR < 0,0.0
+ADR >= 1000 (outlier),1.0
+ADR max,5400.0
+zero guests,167.0
+zero nights,331.0
+cancel rate (raw),0.4173
+Agent distinct IDs,224.0
+Company distinct IDs,208.0

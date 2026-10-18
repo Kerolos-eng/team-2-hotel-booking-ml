@@ -1,0 +1,15 @@
+step,value
+raw_rows,79330.0
+raw_cancel_rate,0.41726963317786464
+duplicates_removed,25902.0
+cancel_rate_after_dedup,0.3003855656210227
+invalid_zero_guests,154.0
+invalid_zero_nights,288.0
+invalid_adr_negative,0.0
+invalid_adr_outlier,1.0
+invalid_rows_removed,386.0
+children_nan_filled,4.0
+country_nan_filled,3.0
+clean_rows,53042.0
+clean_cancel_rate,0.30204366351193396
+total_removed,26288.0

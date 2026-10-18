@@ -1,0 +1,14 @@
+.venv/
+venv/
+__pycache__/
+*.pyc
+.idea/
+.vscode/
+.pytest_cache/
+.ipynb_checkpoints/
+
+# Large / generated: regenerate with the commands in README.md
+data/*.csv
+!data/.gitkeep
+artifacts/*
+!artifacts/.gitkeep
